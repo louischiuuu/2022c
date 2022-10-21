@@ -19,8 +19,8 @@ int main()
     }
 }
 ```
-#Week07
-##最大公因數
+# Week07
+## 最大公因數
 ```cpp
 #include <stdio.h>
 int main()
