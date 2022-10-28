@@ -35,6 +35,24 @@ int main()
 }
 ```
 # week08
+## 2個for迴圈,劃出直角三角形
+```cpp
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int k=1;k<=n;k++){
+            if(k<= n-i){
+                printf(" ");
+            }
+            else printf("*");
+        }
+        printf("\n");
+    }
+}
+```
 ## 質數判斷
 ```cpp
 #include <stdio.h>
