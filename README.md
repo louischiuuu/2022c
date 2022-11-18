@@ -69,8 +69,8 @@ int main()
     else printf("%d 不是質數(早就壞掉了)",n);
 }
 ```
-#week11
-##10數排序
+# week11
+## 10數排序
 ```cpp
 #include <stdio.h>
 int a[10]={90,80,70,60,50,40,30,20,10,0};
